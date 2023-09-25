@@ -1,0 +1,104 @@
+.CardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem 45px 0 10rem;
+  z-index: 1;
+}
+
+.CardContainer .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 310px;
+  width: 100%;
+  padding: 42px 30px 15px 30px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.2s;
+}
+
+.CardContainer .card .setLogo {
+  display: none;
+}
+
+.CardContainer .card:hover {
+  background: #2f87d9;
+  scale: 1.02;
+}
+
+.CardContainer .card:hover > .unLogo {
+  display: none;
+}
+
+.CardContainer .card:hover > .setLogo {
+  display: block;
+}
+
+.CardContainer .card:hover > .text p {
+  color: white;
+}
+
+.CardContainer .card:hover > .text p2 {
+  color: white;
+}
+
+.CardContainer .card:hover > .bottom p {
+  color: white;
+}
+
+.CardContainer .card:hover > .bottom .line {
+  border: 1px solid #ffffff;
+}
+
+.CardContainer .card .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Poppins", sans-serif;
+}
+
+.CardContainer .card .text p {
+  color: #8e8e8e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.CardContainer .card .text p2 {
+  color: #000000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.CardContainer .card .bottom {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.CardContainer .card .bottom .line {
+  max-width: 245px;
+  width: 100%;
+  border: 1px solid #7e7e7e;
+}
+
+.CardContainer .card .bottom p {
+  color: #2f87d9;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,41 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 1080px;
+  max-width: 97px;
+  width: 100%;
+  box-shadow: 1px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  z-index: 3;
+  position: fixed;
+  position: -webkit-sticky;
+}
+
+.sidebar .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  margin: 24px 0 0 0;
+}
+
+.sidebar .bottom {
+  margin: 0 0 140px 0;
+}
+
+.sidebar .top .img {
+  transition: all ease-in-out 0.2s;
+}
+
+.sidebar .top .img:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.sidebar .bottom .img:hover {
+  cursor: pointer;
+}

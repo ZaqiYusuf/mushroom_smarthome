@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway&display=swap");
+
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 50%;
+}
+
+.leftContainer .text {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  max-width: 343px;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  color: rgba(102, 90, 72, 1);
+}
+
+.leftContainer .text .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 800;
+  width: 100%;
+}
+
+.leftContainer .text .title p {
+  top: 50px;
+  font-size: 25px;
+  color: rgba(64, 54, 44, 1);
+}
+
+.cicle {
+  position: absolute;
+  right: 5px;
+  width: 1300px;
+  height: 1300px;
+  border-radius: 50%;
+  z-index: -10;
+  background-color: rgba(221, 206, 191, 1);
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.rightContainer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  width: 100%;
+}
+
+.rightContainer form .title {
+  text-align: center;
+  color: #665a48;
+  margin: 0 0 58px 0;
+}
+
+.rightContainer form .title h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.rightContainer form .title p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rightContainer form .input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: auto;
+  position: relative;
+}
+
+.rightContainer form .input label {
+  top: -10px;
+  left: 35px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #665a48;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: white;
+  z-index: 1;
+  width: 100px;
+  height: 22.496px;
+}
+
+.rightContainer form .input input {
+  border: 1px solid #00233d;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 35, 61, 0.22);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 448px;
+  height: 70.159px;
+  padding: 25px 95px;
+}
+
+.rightContainer form .input input::placeholder {
+  color: rgba(0, 35, 61, 0.53);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rightContainer form button  {
+  max-width: 405px;
+  width: 100%;
+  border-radius: 20px;
+  background: #ddcebf;
+  color: #40362c;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 27px 0;
+}

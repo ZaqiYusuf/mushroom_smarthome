@@ -13,7 +13,7 @@ const images = [
 
 const DemoCarousel = () => {
   return (
-    <div className="w-full max-w-3xl mx-auto">
+    <div className="w-full max-w-3xl mx-auto mb-5">
       <Carousel
         showArrows={false} // Matikan tombol panah bawaan
         showStatus={false}
